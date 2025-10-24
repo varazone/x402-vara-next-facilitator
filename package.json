@@ -1,5 +1,5 @@
 {
-  "name": "my-nextjs-api",
+  "name": "x402-vara-next-facilitator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.0.0"
+    "@gear-js/api": "^0.44.2",
+    "@polkadot/types": "^16.4.9",
+    "@polkadot/util": "^13.5.7",
+    "@polkadot/util-crypto": "^13.5.7",
+    "next": "16.0.0",
+    "sails-js": "^0.5.1",
+    "x402-vara": "^0.3.3"
   },
   "devDependencies": {
     "typescript": "^5",
